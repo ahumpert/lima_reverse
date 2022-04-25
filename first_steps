@@ -1,0 +1,23 @@
+Load usb serial driver search by driver IC
+
+Connect Pins to usb serial 
+1 gnd
+2 tx
+3 rx
+
+sudo su - 
+ls -la /dev/tty.usb*
+
+screen /dev/tty.usbserial.XXXXXXX 115200
+
+poweron w/o usb drive
+connect nw cable
+
+
+check console - press enter logo local
+
+ifconfig
+note macaddr or enab dyn dhcp / cfg static ip
+/etc/init.d/network 
+
+have fun
